@@ -1,0 +1,5 @@
+<root>
+    <item name='android.support.v7.widget.LinearLayoutManager HORIZONTAL'>
+        <annotation name='android.support.annotation.NonNull' />
+    </item>
+</root>
