@@ -104,6 +104,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             Intent intent = new Intent(context, ClickAndShow.class);
             intent.putExtra("description", objMovie.getOverview());
             intent.putExtra("Image", objMovie.getPoster_path());
+            intent.putExtra("Title", objMovie.getTitle());
             this.context.startActivity(intent);
 
         }
